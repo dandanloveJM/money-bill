@@ -69,8 +69,6 @@
     }
 
     saveRecord() {
-
-
       console.log(this.recordItem);
       if (this.recordItem.amount === '000') {
         window.alert('请填写金额');
@@ -83,6 +81,7 @@
     clearData() {
       this.recordItem = {
         type: this.recordItem.type, tag: this.recordItem.tag, amount: '0.00', note: '',
+				createdAt: new Date().toISOString()
       };
 
     }
