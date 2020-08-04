@@ -37,6 +37,6 @@
 
 <style scoped lang="scss">
 .wrapper {
-	height: 300px;
+	height: 250px;
 }
 </style>
